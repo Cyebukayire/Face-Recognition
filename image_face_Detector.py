@@ -4,7 +4,7 @@ from random import randrange
 
 #Load some per-trained data on a face frontals from opencv (haar cascade algorithm)
 trained_face_data = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
-# choose an image to detect faces in
+# choose an image to detect faces from
 img = cv2.imread("img/josue.jfif") 
 # Instead of capturing image, let's use video
 # webcam = cv2.VideoCapture("video.mp4")#(0) means access a default webcam / (video_example.mp4) means accessing the specified video 
