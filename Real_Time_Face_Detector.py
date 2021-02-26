@@ -1,6 +1,7 @@
-from cv2 import cv2 
+# from cv2 import cv2 
+import cv2 
 from random import randrange
-import keyboard
+# import keyboard
 
 
 #Load some per-trained data on a face frontals from opencv (haar cascade algorithm)
